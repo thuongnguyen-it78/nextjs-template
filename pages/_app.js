@@ -29,10 +29,6 @@ export default function App(props) {
 				<meta name="viewport" content="initial-scale=1, width=device-width" />
 			</Head>
 			<ThemeConfig>
-
-
-
-				
 				<QueryClientProvider client={queryClient}>
 					<Layout>
 						<Component {...pageProps} />
