@@ -1,3 +1,5 @@
+import { Box } from '@mui/material';
+
 export function Footer() {
-	return <footer>Footer</footer>;
+	return <Box component="footer">Footer</Box>;
 }

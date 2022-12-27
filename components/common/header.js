@@ -1,3 +1,5 @@
+import { Box } from '@mui/material';
+
 export function Header() {
-	return <header>Header</header>;
+	return <Box component="header">Header</Box>;
 }
