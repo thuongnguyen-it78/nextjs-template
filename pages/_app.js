@@ -1,5 +1,6 @@
 import { MainLayout } from '@/components/layout';
 import createCache from '@emotion/cache';
+import { CacheProvider } from '@emotion/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import Head from 'next/head';
@@ -28,6 +29,10 @@ export default function App(props) {
 				<meta name="viewport" content="initial-scale=1, width=device-width" />
 			</Head>
 			<ThemeConfig>
+
+
+
+				
 				<QueryClientProvider client={queryClient}>
 					<Layout>
 						<Component {...pageProps} />

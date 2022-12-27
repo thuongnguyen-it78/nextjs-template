@@ -27,6 +27,14 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --ext .js ./src --fix"
+    ],
+    "./src/**": [
+      "prettier --write ."
+    ]
+  },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
