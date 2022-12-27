@@ -7,6 +7,14 @@ export const authAPI = {
 
 	login(data) {
 		return axiosClient.post('/auth/login', data)
+
+
+
+
+
+
+
+		
 	},
 
 	logout() {
