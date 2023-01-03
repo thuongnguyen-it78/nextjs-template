@@ -1,5 +1,6 @@
 import { Box } from '@mui/material';
-import { Footer, Header } from '../common';
+import Footer from './Footer';
+import Header from './Header';
 
 export function MainLayout({ children }) {
 	return (
